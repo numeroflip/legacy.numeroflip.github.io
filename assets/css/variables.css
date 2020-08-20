@@ -1,0 +1,9 @@
+:root {
+    --shadow-main: 1px 1px 10px 2px rgba(104, 104, 104, 0.24);
+
+    --gradient-main: linear-gradient(315deg, #7cffcb 0%, #74f2ce 74%);
+    --font-header: 'Playfair Display', serif;
+    --font-main: 'Montserrat', sans-serif;
+    
+}
+
