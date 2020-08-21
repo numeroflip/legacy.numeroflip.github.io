@@ -28,7 +28,7 @@ footer, header, hgroup, menu, nav, section {
     display: block;}
     
     h1, h2, h3, h4, h5, h6 {
-        font-family: var(--font-header)
+        font-family: var(--font-header);
     }
 
 body {
@@ -1795,6 +1795,7 @@ input, select, textarea {
 	header.major h2 {
 		font-size: 1.8em;
 		margin-bottom: 3rem;
+		font-weight: 700;
 	}
 
 /* Form */
