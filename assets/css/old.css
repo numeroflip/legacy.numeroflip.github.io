@@ -137,10 +137,10 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: rgb(68, 68, 68);
 		font-weight: 400;
-		line-height: 1em;
-		margin: 0 0 1em 0;
+		line-height: 1rem;
+		margin: 0 0 1rem 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -149,45 +149,45 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2em;
-		line-height: 1.5em;
+		font-size: 2rem;
+		line-height: 1.5rem;
 	}
 
 	h2 {
-		font-size: 1.5em;
-		line-height: 1.5em;
+		font-size: 2rem;
+		line-height: 1.5rem;
 	}
 
 	h3 {
-		font-size: 1.25em;
-		line-height: 1.5em;
+		font-size: 1.25rem;
+		line-height: 1.5rem;
 	}
 
 	h4 {
-		font-size: 1.1em;
-		line-height: 1.5em;
+		font-size: 1.1rem;
+		line-height: 1.5rem;
 	}
 
 	h5 {
-		font-size: 0.9em;
-		line-height: 1.5em;
+		font-size: 0.9rem;
+		line-height: 1.5rem;
 	}
 
 	h6 {
-		font-size: 0.7em;
-		line-height: 1.5em;
+		font-size: 0.7rem;
+		line-height: 1.5rem;
 	}
 
 	sub {
-		font-size: 0.8em;
+		font-size: 0.8rem;
 		position: relative;
-		top: 0.5em;
+		top: 0.5rem;
 	}
 
 	sup {
-		font-size: 0.8em;
+		font-size: 0.8rem;
 		position: relative;
-		top: -0.5em;
+		top: -0.5rem;
 	}
 
 	hr {
@@ -1793,7 +1793,8 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		font-size: 2em;
+		font-size: 1.8em;
+		margin-bottom: 3rem;
 	}
 
 /* Form */
@@ -2549,8 +2550,7 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background-color: #1f1815;
-		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), linear-gradient(to bottom right, rgb(75, 74, 74), black);
+		background-image: var(--background-badass);
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -3035,7 +3035,7 @@ input, select, textarea {
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+				background-image: var(--background-badass);
 				background-position: top left,						bottom center;
 				background-repeat: repeat,							no-repeat;
 				background-size: auto,							cover;
@@ -3080,15 +3080,15 @@ input, select, textarea {
 		/* Basic */
 
 			h1 {
-				font-size: 1.5em;
+				font-size: 1.8em;
 			}
 
 			h2 {
-				font-size: 1.2em;
+				font-size: 1.5em;
 			}
 
 			h3 {
-				font-size: 1em;
+				font-size: 1.2em;
 			}
 
 		/* Section/Article */
