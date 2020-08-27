@@ -107,7 +107,8 @@ header .avatar {
 
 .subheading {
 	margin-top: 2rem;
-	font-size: 1.2rem;
+  font-size: 1.2rem;
+  margin-bottom: .3rem;
 }
 
 
@@ -136,4 +137,13 @@ header .avatar {
 
 .stuff {
 	font-size: 1rem;
+}
+
+.stack-icons {
+  margin-top: 0;
+}
+
+.stack-icons > * {
+  font-size: 1.5rem;
+  margin: .3rem;
 }
