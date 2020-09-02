@@ -147,3 +147,133 @@ header .avatar {
   font-size: 1.5rem;
   margin: .3rem;
 }
+
+
+.other-proj-list {
+  font-size: 1rem;
+  list-style: none;
+  margin: 2rem 0;
+  padding: 0;
+}
+
+.other-proj-list-item {
+  margin: 0;
+  padding: 0;
+  margin-top: 1rem;
+}
+.other-proj-list-item h3 {
+  align-self: center;
+  margin: 0;
+  padding: 0;
+}
+
+.other-proj-list p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.header-wrapper {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: auto auto auto 1fr;
+  align-content: center;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+section {
+  position: relative;
+}
+
+#main {
+  position: relative;
+
+}
+
+#header {
+  z-index: 2000
+}
+
+  .nav-wrapper {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    z-index: 200;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.123);
+  }
+  .nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+
+  }
+
+  .nav-list .main {
+  background-color: #76cfb5;
+  border-radius: 5rem;
+  padding: 0 1rem;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.178);
+  transition: ease .2s all;
+
+
+  }
+
+  .nav-list .main a {
+    color: white;
+    border: 0;
+    transition: ease .2s all;
+  
+    }
+
+    .nav-list .main a:hover {
+      color: white !important;
+    
+      }
+
+    .nav-list .main:hover {
+      transform: scale(1.05);
+
+    }
+
+  .anchor {
+    position: absolute;
+    display: block;
+    visibility: hidden;
+    height: 20px;
+    z-index: -1;
+    top: -60px;
+  }
+
+  .nav-list li{
+    margin: 1rem;
+  }
+
+
+@media(max-width: 400px) {
+  .nav-list {
+    font-size: .8rem;
+  }
+
+  .nav-list li {
+    margin: 1rem, .5rem;
+  }
+}
+
+#footer .footer-header {
+  color:#868584;
+}
+
+.code {
+  background-color: rgba(145, 252, 216, 0.226);
+  border: 1px solid rgba(128, 128, 128, 0.253);
+  font-family: Monospace;
+  padding: 2px 5px;
+  border-radius: 4px;
+  color: rgba(78, 78, 78, 0.884);
+}
